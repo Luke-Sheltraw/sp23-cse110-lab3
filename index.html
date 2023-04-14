@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Meeting Minutes (12 April 2023)</title>
+        <title>Meeting Minutes (16 April 2023)</title>
         <meta charset="UTF-8" />
+        <meta name="description" content="Synopsis of team meeting which occurred on 16 April 2023" />
+        <meta name="author" content="Luke Sheltraw" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     </head>
     <body>
@@ -39,7 +42,7 @@
             <section id="agenda">
                 <h4>Agenda</h4>
                 <ol>
-                    <li>Introduce yourself (and a fun fact)!</li>
+                    <li>Introduce yourself <em>(and a fun fact)!</em></li>
                     <li>Go over expectations for project</li>
                     <li>Brainstorm and sketch out ideas</li>
                     <li>Schedule meetings for rest of quarter</li>
@@ -50,6 +53,7 @@
                 <ul>
                     <li><strong>Top Priority:</strong> Lab 2 needs to be finished</li>
                     <li>Go over Lab 1</li>
+                    <li>More business that hasn't been finished, and whatnot</li>
                 </ul>
             </section>
             <section id="new-business">
@@ -57,6 +61,7 @@
                 <ul>
                     <li>We <strong>need</strong> to figure out who keeps stealing the donuts before each meeting</li>
                     <li>The old business is now new business: the circle of life</li>
+                    <li><i>"I never think of the future, it comes soon enough."</i> - Albert Einstein</li>
                 </ul>
             </section>
             <hr />
@@ -88,7 +93,7 @@
                 <details>
                     <summary>Audio</summary>
                     <audio controls>
-                        <source src="assets/audio.mp3" type="video/mpeg" />
+                        <source src="assets/audio.mp3" type="audio/mpeg" />
                         Your browser does not support embedded audio.
                     </audio>
                 </details>
@@ -111,13 +116,14 @@
 
                         <br />
 
-                        <label for="phone">Phone: </label>
-                        <input type="tel" name="phone" />
-
-                        <input type="radio" name="type-phone" id="home" value="home" />
-                        <label for="home">Home phone</label>
-                        <input type="radio" name="type-phone" id="cell" value="cell" />
-                        <label for="cell">Cell phone</label>
+                        <span id="not-particularly-useful-span-example">
+                            <label for="phone">Phone: </label>
+                            <input type="tel" name="phone" />
+                            <input type="radio" name="type-phone" id="home" value="home" />
+                            <label for="home">Home phone</label>
+                            <input type="radio" name="type-phone" id="cell" value="cell" />
+                            <label for="cell">Cell phone</label>
+                        </span>
 
                         <br />
 
@@ -141,16 +147,14 @@
                         <br />
 
                         <label for="content">Message: </label><br />
-                        <textarea name="content" cols="70" rows="6">
-
-                        </textarea>
+                        <textarea name="content" cols="70" rows="6"></textarea>
 
                         <br />
 
                         <input type="checkbox" name="consent"/>
                         <label for="consent">I consent to being contacted</label>
 
-                        <button>Submit</button>
+                        <button type="submit" formmethod="post">Submit</button>
                     </fieldset>
                 </form>
             </section>
