@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <title>Meeting Minutes (16 April 2023)</title>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Synopsis of team meeting which occurred on 16 April 2023" />
-        <meta name="author" content="Luke Sheltraw" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <meta charset="UTF-8">
+        <meta name="description" content="Synopsis of team meeting which occurred on 16 April 2023">
+        <meta name="author" content="Luke Sheltraw">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     </head>
     <body>
         <header>
@@ -26,19 +26,19 @@
                 <a href="#contact">Contact Us</a>
             </nav>
         </header>
-        <hr />
+        <hr>
         <main>
             <section id="attendance">
                 <h4>Attendance</h4>
                 <ul>
-                    <li><input type="checkbox" checked disabled />Luke Sheltraw</li>
-                    <li><input type="checkbox" checked disabled />John Doe</li>
-                    <li><input type="checkbox" checked disabled />Dom H. Teemel</li>
-                    <li><input type="checkbox" disabled />Larry Page</li>
-                    <li><input type="checkbox" disabled />Tim Berners-Lee</li>
+                    <li><input type="checkbox" checked disabled>Luke Sheltraw</li>
+                    <li><input type="checkbox" checked disabled>John Doe</li>
+                    <li><input type="checkbox" checked disabled>Dom H. Teemel</li>
+                    <li><input type="checkbox" disabled>Larry Page</li>
+                    <li><input type="checkbox" disabled>Tim Berners-Lee</li>
                 </ul>
             </section>
-            <hr />
+            <hr>
             <section id="agenda">
                 <h4>Agenda</h4>
                 <ol>
@@ -64,71 +64,72 @@
                     <li><i>"I never think of the future, it comes soon enough."</i> - Albert Einstein</li>
                 </ul>
             </section>
-            <hr />
+            <hr>
             <section id="comments">
                 <h4>Comments</h4>
                 <ul>
-                    <li><b>Larry</b> hasn't been showing up recently; let's reach out to him</li>
+                    <li><b>Larry</b> hasn't been showing up recently; let's reach out to him
                         <ul>
                             <li>Neither has <b>Tim</b>, unfortunately</li>
                         </ul>
+                    </li>
                     <li>Someone with the handle <i>@IWishICouldUseCSS</i> has been leaving us disparaging comments on Twitter</li>
                 </ul>
             </section>
-            <hr />
+            <hr>
             <section id="whiteboards">
                 <h4>Whiteboards</h4>
-                <img src="assets/whiteboard1.jpg" width="400px" alt="Image of whiteboard containing diagram of nonsense" title="Image of whiteboard containing diagram of nonsense" />
-                <img src="assets/whiteboard2.jpg" width="400px" alt="Image of whiteboard containing diagram of nonsense" title="Image of whiteboard containing diagram of nonsense" />
+                <img src="assets/whiteboard1.jpg" width="400" alt="Image of whiteboard containing diagram of nonsense" title="Image of whiteboard containing diagram of nonsense">
+                <img src="assets/whiteboard2.jpg" width="400" alt="Image of whiteboard containing diagram of nonsense" title="Image of whiteboard containing diagram of nonsense">
             </section>
             <section id="recordings">
                 <h4>Recordings</h4>
                 <details>
                     <summary title="Click to expand">Video</summary>
                     <video width="300" height="200" controls>
-                        <source src="assets/video.mp4" type="video/mp4" />
+                        <source src="assets/video.mp4" type="video/mp4">
                         Your browser does not support embedded videos.
                     </video>
                 </details>
                 <details>
                     <summary title="Click to expand">Audio</summary>
                     <audio controls>
-                        <source src="assets/audio.mp3" type="audio/mpeg" />
+                        <source src="assets/audio.mp3" type="audio/mpeg">
                         Your browser does not support embedded audio.
                     </audio>
                 </details>
             </section>
         </main>
-        <hr />
+        <hr>
         <footer>
             <section id="contact">
                 <form>
                     <fieldset>
-                        <legend>Contact Us</legend>
+                        <legend><h4>Contact Us</h4></legend>
                         <label for="name">Name: </label>
-                        <input type="text" name="name" />
+                        <input type="text" id="name">
                                                 
                         <label for="birthday">Birthday: </label>
-                        <input type="date" name="birthday" />
+                        <input type="date" id="birthday">
 
                         <label for="email">Email: </label>
-                        <input type="email" name="email" />
+                        <input type="email" id="email">
 
-                        <br />
+                        <br>
 
                         <span id="not-particularly-useful-span-example">
                             <label for="phone">Phone: </label>
-                            <input type="tel" name="phone" />
-                            <input type="radio" name="type-phone" id="home" value="home" />
+                            <input type="tel" id="phone">
+                            <input type="radio" id="home">
                             <label for="home">Home phone</label>
-                            <input type="radio" name="type-phone" id="cell" value="cell" />
+                            <input type="radio" id="cell">
                             <label for="cell">Cell phone</label>
                         </span>
 
-                        <br />
+                        <br>
 
                         <label for="choose-country">Country: </label>
-                        <input list="countries" name="choose-country" />
+                        <input list="countries" id="choose-country">
                             <datalist id="countries">
                                 <option value="United States of America"></option>
                                 <option value="Mexico">
@@ -136,22 +137,22 @@
                             </datalist>
 
                         <label for="choose-subject">Subject: </label>
-                        <select name="choose-subject">
-                            <option value="default">Select an option</option>
+                        <select id="choose-subject">
+                            <option>Select an option</option>
                             <option>Just chatting</option>
                             <option>Hate mail</option>
                             <option>Fan mail</option>
                             <option>Business offer</option>
                         </select>
 
-                        <br />
+                        <br>
 
-                        <label for="content">Message: </label><br />
-                        <textarea name="content" cols="70" rows="6"></textarea>
+                        <label for="content">Message: </label><br>
+                        <textarea id="content" cols="70" rows="6"></textarea>
 
-                        <br />
+                        <br>
 
-                        <input type="checkbox" name="consent"/>
+                        <input type="checkbox" id="consent"/>
                         <label for="consent">I consent to being contacted</label>
 
                         <button type="button">Submit</button>
@@ -159,7 +160,7 @@
                 </form>
             </section>
             <p>
-                <a href="https://github.com/Luke-Sheltraw" ref="nofollow" target="_blank">Luke Sheltraw</a> &copy; 2023
+                <a href="https://github.com/Luke-Sheltraw" rel="nofollow" target="_blank">Luke Sheltraw</a> &copy; 2023
             </p>
         </footer>
     </body>
