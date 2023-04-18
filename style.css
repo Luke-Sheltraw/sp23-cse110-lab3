@@ -2,9 +2,33 @@
 
 @font-face {
     font-family: "Anuphan";
-    src: url("/assets/Anuphan-VariableFont_wght.ttf");
+    src: url("assets/Anuphan-VariableFont_wght.ttf");
 }
 
 html {
     font-family: "Anuphan", Helvetica, Verdana, sans-serif;
+}
+
+nav > a {
+    color: #127475;
+}
+
+nav > a:hover {
+    color: blue;
+}
+
+h2, h3 {
+    color: rgb(90, 95, 95);
+}
+
+li.present {
+    color: hsl(0, 0%, 15%);
+}
+
+li.not-present {
+    color: hsl(0, 0%, 65%);
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: blue;
 }
