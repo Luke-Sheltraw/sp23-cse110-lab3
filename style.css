@@ -1,1 +1,10 @@
 /* Author: Luke Sheltraw. This is an example comment. */
+
+@font-face {
+    font-family: "Anuphan";
+    src: url("/assets/Anuphan-VariableFont_wght.ttf");
+}
+
+html {
+    font-family: "Anuphan", Helvetica, Verdana, sans-serif;
+}
