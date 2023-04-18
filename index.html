@@ -7,6 +7,12 @@
         <meta name="author" content="Luke Sheltraw">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css">
+            #submit-button:hover { /* example css using style element */
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -155,12 +161,12 @@
                         <input type="checkbox" id="consent">
                         <label for="consent">I consent to being contacted</label>
 
-                        <button type="button">Submit</button>
+                        <button type="button" id="submit-button">Submit</button>
                     </fieldset>
                 </form>
             </section>
             <p>
-                <a href="https://github.com/Luke-Sheltraw" rel="nofollow" target="_blank">Luke Sheltraw</a> &copy; 2023
+                <a href="https://github.com/Luke-Sheltraw" rel="nofollow" target="_blank" style="color: black">Luke Sheltraw</a> &copy; 2023
             </p>
         </footer>
     </body>
