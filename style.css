@@ -32,3 +32,11 @@ li.not-present {
 input[type="radio"], input[type="checkbox"] {
     accent-color: blue;
 }
+
+fieldset {
+    background-image: linear-gradient(160deg, white, rgba(0,255,255,0.3));
+}
+
+button {
+    background-color: cyan;
+}
