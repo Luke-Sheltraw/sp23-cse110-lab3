@@ -11,6 +11,8 @@ html {
 
 nav > a {
     color: #127475;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
 }
 
 nav > a:hover {
@@ -19,6 +21,14 @@ nav > a:hover {
 
 h2, h3 {
     color: rgb(90, 95, 95);
+}
+
+#titles > h2 {
+    margin-bottom: 0.25lh;
+}
+
+#titles > h3 {
+    margin-top: 0;
 }
 
 li.present {
@@ -35,8 +45,20 @@ input[type="radio"], input[type="checkbox"] {
 
 fieldset {
     background-image: linear-gradient(160deg, white, rgba(0,255,255,0.3));
+    width: 45vw;
 }
 
-button {
+button#submit-button {
     background-color: cyan;
+    padding: 5px 20px 5px 20px;
+    margin-left: 10px;
+    border-width: 1pt;
+    border-style: solid;
+    border-radius: 3Q;
+    border-color: black;
+}
+
+button#submit-button:active {
+    background-color: blue;
+    color: white;
 }
