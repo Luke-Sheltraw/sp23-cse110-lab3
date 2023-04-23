@@ -23,10 +23,6 @@ nav > a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4 {
-    text-align: left;
-}
-
 h2, h3 {
     color: rgb(90, 95, 95);
 }
@@ -58,6 +54,8 @@ fieldset {
     align-items: stretch;
     background-image: linear-gradient(160deg, white, rgba(0,255,255,0.3));
     width: 45vw;
+    min-width: 500px;
+    max-width: 750px;
     padding-left: 15px;
     padding-right: 23px;
     padding-top: 0px;
@@ -109,8 +107,11 @@ input[type="checkbox"]:hover, input[type="radio"]:hover {
 }
 
 .calendar {
+    width: 800px;
+    height: 300px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 5fr;
     grid-row-gap: 3px;
     grid-column-gap: 10px;
 }
@@ -119,4 +120,8 @@ input[type="checkbox"]:hover, input[type="radio"]:hover {
     background-color: lightgray;
     border-radius: 5px;
     padding: 5px;
+}
+
+.day.rule {
+    text-align: center;
 }
