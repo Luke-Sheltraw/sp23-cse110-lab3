@@ -11,6 +11,7 @@ html {
 
 nav > a {
     color: #127475;
+    text-decoration: none;
     margin-left: 0.25em;
     margin-right: 0.25em;
     margin-bottom: 10px;
@@ -19,6 +20,11 @@ nav > a {
 
 nav > a:hover {
     color: blue;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    text-align: left;
 }
 
 h2, h3 {
@@ -73,6 +79,7 @@ button#submit-button {
 button#submit-button:active {
     background-color: blue;
     color: white;
+    transition: background-color 200ms ease-in-out 0ms;
 }
 
 img {
