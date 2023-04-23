@@ -5,6 +5,12 @@
     src: url("assets/Anuphan-VariableFont_wght.ttf");
 }
 
+@media(min-width: 5000px) {
+    body {
+        background-color: yellow;
+    }
+}
+
 html {
     font-family: "Anuphan", Helvetica, Verdana, sans-serif;
 }
